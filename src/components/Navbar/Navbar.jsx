@@ -84,7 +84,7 @@ const Navbar = () => {
             About me
           </StyledNavLinks>
         </NavList>
-        <NavList>
+        {/* <NavList>
           <StyledNavLinks
             to="playground"
             smooth={true}
@@ -97,7 +97,7 @@ const Navbar = () => {
           >
             Playground
           </StyledNavLinks>
-        </NavList>
+        </NavList> */}
       </NavMenuList>
       <StyledCTA
         href="mailto:asaydraxmonov15@gmail.com "

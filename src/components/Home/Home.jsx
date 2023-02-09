@@ -102,7 +102,7 @@ const Home = () => {
             <GrLinkedinOption />
           </Social>
         </Socials>
-        <Quote>Don't wish for it! Work for it!</Quote>
+        <Quote>Assalomu alaykum! Welcome to my Portfolio Website</Quote>
       </StyledHome>
     </IconContext.Provider>
   );

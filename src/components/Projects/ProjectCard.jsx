@@ -10,12 +10,12 @@ import {
   ProjectImage,
   ProjectLiveLink,
   ProjectTitle,
-  ProjectTransitionImage,
+  // ProjectTransitionImage,
 } from "../styles/Projects.styled";
 
 const ProjectCardComponent = ({
   image,
-  transitionImage,
+  // transitionImage,
   title,
   codeLink,
   liveLink,
@@ -25,7 +25,7 @@ const ProjectCardComponent = ({
       <IconContext.Provider value={{ size: "1rem" }}>
         <ProjectCard>
           <ProjectImage src={image} alt={title} />
-          <ProjectTransitionImage src={transitionImage} alt={title} />
+          {/* <ProjectTransitionImage src={transitionImage} alt={title} /> */}
           <ProjectDetails>
             <ProjectTitle>{title}</ProjectTitle>
             <ProjectCodeLink

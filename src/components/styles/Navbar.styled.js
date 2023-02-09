@@ -1,7 +1,9 @@
 import styled from "styled-components";
-import { Link as NavLink } from "react-scroll";
+import {
+  Link as NavLink
+} from "react-scroll";
 
-export const StyledNavbar = styled.nav`
+export const StyledNavbar = styled.nav `
   position: absolute;
   left: 0;
   right: 0;
@@ -30,16 +32,21 @@ export const StyledNavbar = styled.nav`
   }
 `;
 
-export const NavLogo = styled.img`
+export const NavLogo = styled.img `
   cursor: pointer;
   width: 40px;
   height: 40px;
   background-color: #e64e04;
   border-radius: 50%;
   margin-left: 20px;
+
+  
+  &:hover {
+    background-color: #4353ff;
+  }
 `;
 
-export const NavMenuList = styled.ul`
+export const NavMenuList = styled.ul `
   display: flex;
   list-style: none;
   gap: 1.5rem;
@@ -51,9 +58,10 @@ export const NavMenuList = styled.ul`
   }
 `;
 
-export const NavList = styled.li``;
+export const NavList = styled.li ``;
 
-export const StyledNavLinks = styled(NavLink)`
+export const StyledNavLinks = styled(NavLink)
+`
   font-size: 0.75rem;
   letter-spacing: 0.09375rem;
   color: ${({ theme }) => theme.color.lightGray};
@@ -98,7 +106,7 @@ export const StyledNavLinks = styled(NavLink)`
   }
 `;
 
-export const StyledCTA = styled.a`
+export const StyledCTA = styled.a `
   font-size: 0.625rem;
   letter-spacing: 0.1875rem;
   font-weight: 500;
@@ -170,7 +178,7 @@ export const StyledCTA = styled.a`
   }
 `;
 
-export const Menu = styled.div`
+export const Menu = styled.div `
   cursor: pointer;
   display: none;
 
@@ -179,7 +187,7 @@ export const Menu = styled.div`
   }
 `;
 
-export const Line = styled.div`
+export const Line = styled.div `
   height: 0.1125rem;
   width: ${(props) => props.width || "2rem"};
   background: ${({ theme }) => theme.color.light};

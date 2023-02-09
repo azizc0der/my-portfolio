@@ -12,9 +12,9 @@ const Projects = () => {
         <SectionTitle number="01">Projects</SectionTitle>
       </SectionHeading>
       <StyledParagraph dark="true" textAlign="center">
-        Selected projects I've worked on recently.{" "}
+        Several projects I've worked on recently.{" "}
         <StyledLink
-          href="https://github.com/monciego"
+          href="https://github.com/azizc0der"
           target="_blank"
           rel="noopener noreferrer"
         >

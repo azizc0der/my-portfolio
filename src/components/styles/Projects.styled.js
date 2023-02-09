@@ -40,12 +40,12 @@ export const ProjectImage = styled.img`
 `;
 
 export const ProjectTransitionImage = styled.img`
-  width: 100%;
+  /* width: 100%;
   height: 100%;
   opacity: 0;
   object-fit: cover;
   position: absolute;
-  transition: 0.3s ease;
+  transition: 0.3s ease; */
 `;
 
 export const ProjectDetails = styled.div`
@@ -109,7 +109,7 @@ export const ProjectLiveLink = styled.a`
 
 export const ProjectCard = styled.article`
   background: #fff;
-  width: 32rem;
+  width: 37rem;
   height: 23rem;
   display: flex;
   justify-content: center;
