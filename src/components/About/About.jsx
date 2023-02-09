@@ -5,11 +5,12 @@ import {
   AboutContent,
   AboutDetailsContainer,
   AboutImage,
-  AboutImageContainer,
+  // AboutImageContainer,
   Resume,
   ResumeLink,
-  StyledAbout
+  StyledAbout,
 } from '../styles/About.styled'
+import resume from './resume.pdf'
 import { SectionHeading, SectionTitle } from '../styles/SectionHeading'
 import { StyledParagraph } from '../styles/Typography.styled'
 
@@ -23,7 +24,7 @@ const About = () => {
       </SectionHeading>
       <AboutContent>
         {/* <AboutImageContainer> */}
-          <AboutImage src={myImage} />
+        <AboutImage src={myImage} />
         {/* </AboutImageContainer> */}
         <AboutDetailsContainer>
           <StyledParagraph>
@@ -43,9 +44,11 @@ const About = () => {
           </StyledParagraph>
           <Resume>
             <ResumeLink
-              href='../../assets/my-cv.pdf'
+              href={resume}
               icon={downloadIcon}
-              download
+              target="_blank"
+              rel="noopener noreferrer"
+              download="resume"
             >
               Download Resume
             </ResumeLink>
